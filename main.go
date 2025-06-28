@@ -5,9 +5,12 @@ import (
 )
 
 func main() {
-	a := Modules.OsInfo()
-	b := Modules.HostnameInfo()
-	Modules.SendData(a, b)
+	a := Modules.HostnameInfo()
+	b := Modules.OsInfo()
+	c := Modules.IpAdressInfo()
+	d := Modules.MacAdressInfo()
+	e := Modules.HomeDirInfo()
+	Modules.SendData(a, b, c, d, e)
 }
 
 func ReadFile() {
