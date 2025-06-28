@@ -1,0 +1,1 @@
+Le programme va devoir chercher pour des strings prédefini on les mettra ici 
